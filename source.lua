@@ -949,9 +949,9 @@ local function Hide(notify: boolean?)
 	Debounce = true
 	if notify then
 		if useMobilePrompt then 
-			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping 'Show Rayfield'.", Duration = 7, Image = 4400697855})
+			RayfieldLibrary:Notify({Title = "Интерфейс скрыт", Content = "Интерфейс был скрыт, вы можете показать интерфейс, нажав «Показать Rayfield»'.", Duration = 7, Image = 4400697855})
 		else
-			RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping K.", Duration = 7, Image = 4400697855})
+			RayfieldLibrary:Notify({Title = "Интерфейс скрыт", Content = "Интерфейс был скрыт, вы можете включить интерфейс, нажав K.", Duration = 7, Image = 4400697855})
 		end
 	end
 
